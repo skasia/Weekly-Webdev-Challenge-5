@@ -51,3 +51,11 @@ $shadow: #646464;
 	 min-width: $minWidth;
 	 box-shadow: $shadow;
 }
+
+@mixin input($padding: 1.4rem 0.5rem, $color: #000, $minWidth: 400px, $maxWidth: 570px, $border: 1px solid #555) {
+	padding: $padding;
+	color: $color;
+	min-width: $minWidth;
+	max-width: $maxWidth;
+	border: $border;
+}
