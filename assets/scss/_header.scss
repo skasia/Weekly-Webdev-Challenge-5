@@ -54,6 +54,7 @@
 
 .banner_paragraph {
     margin-bottom: 3rem;
+    text-align: left;
 }
 
 .banner_button {
@@ -129,5 +130,9 @@
     .banner {
         padding: 10rem 0;
         max-width: 100%;
+    }
+
+    .banner_paragraph {
+        text-align: center;
     }
 }

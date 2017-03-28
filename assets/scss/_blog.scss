@@ -39,6 +39,7 @@
     position: relative;
     box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.5);
     transition: all 0.5s ease;
+    cursor: pointer;
 
       &:before {
     content: '';
@@ -69,6 +70,7 @@
 }
 
 .blog_date-square {
+    text-align: center;
     position: absolute;
     display: block;
     width: 60px;
@@ -99,15 +101,37 @@
     p {
         color: #fff;
         font-size: 1.3rem;
+        text-align: left;
     }
 }
 
 .blog_button {
     @include btn;
     background-color: #f72b3b;
+    display: block;
+    margin: 0 auto;
 
     &:hover,
     &:focus {
         background-color: #f83c4c;
+    }
+}
+
+@media only screen and (max-width: 780px) {
+    .blog_post-box {
+        width: 80%;
+        margin: 0 10%;
+        height: 80%;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .blog_post-box {
+        width: 80%;
+        margin: 0 10%;
+    }    
+
+    .blog_content {
+        height: 250px;
     }
 }

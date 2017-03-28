@@ -3,6 +3,14 @@
     padding: 70px 0;
 }
 
+.about-us_heading {
+    text-align: left;
+}
+
+.about-us_paragraph {
+    text-align: left;
+}
+
 .about-us_container {
     display: flex;
     align-items: stretch;
@@ -30,6 +38,13 @@
 
     .about-us_text-box {
         padding: 0 20px;
+    }
+
+    .about-us_heading {
+        text-align: center;
+    }
+
+    .about-us_paragraph {
         text-align: center;
     }
 }

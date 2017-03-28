@@ -8,12 +8,6 @@
     margin: 0 auto;
 }
 
-.gallery_header {
-    max-width: 580px;
-    display: block;
-    margin: 0 auto;
-}
-
 .gallery_title {
     margin-bottom: 10px;
 }
@@ -88,6 +82,8 @@
     @include btn(2rem 4rem);
     background-color: #5585a2;
     font-size: 2rem;
+    display: block;
+    margin: 0 auto;
 
     &:hover,
     &:focus {
@@ -96,7 +92,7 @@
 }
 
 @media only screen and (max-width: 1175px) {
-    .special-wrapper {
+    .wrapper {
         max-width: 770px;
         width: 100%;
         margin: 0 auto;
@@ -116,7 +112,7 @@
     }
 
     .gallery_medium-image {
-        width: 50%; 
+        height: 260px; 
     }
 }
 
@@ -138,7 +134,7 @@
     }
 
     .gallery_main-image {
-    width: 320px;
+        width: 320px;
 
     .gallery_img-0 {
         background-size: cover;
